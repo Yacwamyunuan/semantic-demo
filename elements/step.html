@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<title>Element - Step</title>
+		<link rel="stylesheet" type="text/css" href="../semantic/semantic.min.css">
+		<style media="screen">
+		code {
+			background-color: rgba(0, 0, 0, 0.08);
+			border-radius: 3px;
+			display: inline-block;
+			font-family: "Monaco","Menlo","Ubuntu Mono","Consolas","source-code-pro",monospace;
+			font-size: 0.875em;
+			font-weight: bold;
+			padding: 1px 6px;
+			vertical-align: baseline;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="ui center aligned container">
+			<h1>Element - Step</h1>
+			<h3>A step shows the completion status of an activity in a series of activities</h3>
+		</div>
+		
+		<p class="ui divider header"></p>
+		
+		<div class="ui container">
+			<div class="ui steps">
+				<div class="step">
+					Shipping
+				</div>
+			</div>
+			
+			<p class="ui divider"></p>
+			
+			<div class="ui steps">
+				<div class="step">
+					<i class="truck icon"></i>
+					<div class="content">
+						<div class="title">Shipping</div>
+						<div class="description">Choose your shipping options</div>
+					</div>
+				</div>
+				<div class="active step">
+					<i class="payment icon"></i>
+					<div class="content">
+						<div class="title">Billing</div>
+						<div class="description">Enter billing information</div>
+					</div>
+				</div>
+				<div class="disabled step">
+					<i class="info icon"></i>
+					<div class="content">
+						<div class="title">Confirm Order</div>
+					</div>
+				</div>
+			</div>
+			
+			<p class="ui divider"></p>
+			
+			<div class="ui ordered steps">
+				<div class="completed step">
+					<div class="content">
+						<div class="title">Shipping</div>
+						<div class="description">Choose your shipping options</div>
+					</div>
+				</div>
+				<div class="completed step">
+					<div class="content">
+						<div class="title">Billing</div>
+						<div class="description">Enter billing information</div>
+					</div>
+				</div>
+				<div class="step">
+					<div class="content">
+						<div class="title">Confirm Order</div>
+						<div class="description">Verify order details</div>
+					</div>
+				</div>
+			</div>
+			
+			<p class="ui divider"></p>
+			
+			<div class="ui vertical ordered steps">
+				<div class="completed step">
+					<div class="content">
+						<div class="title">Shipping</div>
+						<div class="description">Choose your shipping options</div>
+					</div>
+				</div>
+				<div class="completed step">
+					<div class="content">
+						<div class="title">Billing</div>
+						<div class="description">Enter billing information</div>
+					</div>
+				</div>
+				<div class="step">
+					<div class="content">
+						<div class="title">Confirm Order</div>
+						<div class="description">Verify order details</div>
+					</div>
+				</div>
+			</div>
+			
+			<p class="ui divider"></p>
+			
+			<div class="ordered ui steps">
+				<a class="active step">
+					<div class="content">
+						<div class="title">Shipping</div>
+						<div class="description">Choose your shipping options</div>
+					</div>
+				</a>
+				<a class="step">
+					<div class="content">
+						<div class="title">Billing</div>
+						<div class="description">Enter billing information</div>
+					</div>
+				</a>
+				<div class="link active step">
+					<div class="content">
+						<div class="title">Confirm Order</div>
+						<div class="description">Verify order details</div>
+					</div>
+				</div>
+				<div class="completed step">
+					<div class="content">
+						<div class="title">Confirm Order</div>
+						<div class="description">Verify order details</div>
+					</div>
+				</div>
+			</div>
+			
+			<p class="ui divider"></p>
+			
+			<div class="ui steps">
+				<div class="disabled step">
+					Billing
+				</div>
+			</div>
+			
+			<p class="ui divider"></p>
+			
+			<div class="ui tablet stackable steps">
+				<div class="step">
+					<div class="content">
+						<div class="title">Shipping</div>
+						<div class="description">Choose your shipping options</div>
+					</div>
+				</div>
+				<div class="step">
+					<div class="content">
+						<div class="title">Billing</div>
+						<div class="description">Enter billing information</div>
+					</div>
+				</div>
+				<div class="step">
+					<div class="content">
+						<div class="title">Confirm Order</div>
+						<div class="description">Verify order details</div>
+					</div>
+				</div>
+			</div>
+			
+			<p class="ui divider"></p>
+			
+			<div class="ui two column grid">
+				<div class="column">
+					<div class="ui fluid vertical steps">
+						<div class="completed step">
+							<i class="truck icon"></i>
+							<div class="content">
+								<div class="title">Shipping</div>
+								<div class="description">Choose your shipping options</div>
+							</div>
+						</div>
+						<div class="active step">
+							<i class="dollar icon"></i>
+							<div class="content">
+								<div class="title">Billing</div>
+								<div class="description">Enter billing information</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="ui fluid vertical steps">
+						<div class="completed step">
+							<i class="truck icon"></i>
+							<div class="content">
+								<div class="title">Shipping</div>
+								<div class="description">Choose your shipping options</div>
+							</div>
+						</div>
+						<div class="active step">
+							<i class="dollar icon"></i>
+							<div class="content">
+								<div class="title">Billing</div>
+								<div class="description">Enter billing information</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<p class="ui divider"></p>
+			
+			<div class="ui three top attached steps">
+			  <div class="step">
+			    <i class="truck icon"></i>
+			    <div class="content">
+			      <div class="title">Shipping</div>
+			      <div class="description">Choose your shipping options</div>
+			    </div>
+			  </div>
+			  <div class="active step">
+			    <i class="payment icon"></i>
+			    <div class="content">
+			      <div class="title">Billing</div>
+			      <div class="description">Enter billing information</div>
+			    </div>
+			  </div>
+			  <div class="disabled step">
+			    <i class="info icon"></i>
+			    <div class="content">
+			      <div class="title">Confirm Order</div>
+			      <div class="description">Verify order details</div>
+			    </div>
+			  </div>
+			</div>
+			<div class="ui attached segment">
+			  <p></p>
+			</div>
+			<div class="ui three bottom attached steps">
+			  <div class="step">
+			    <i class="truck icon"></i>
+			    <div class="content">
+			      <div class="title">Shipping</div>
+			      <div class="description">Choose your shipping options</div>
+			    </div>
+			  </div>
+			  <div class="active step">
+			    <i class="payment icon"></i>
+			    <div class="content">
+			      <div class="title">Billing</div>
+			      <div class="description">Enter billing information</div>
+			    </div>
+			  </div>
+			  <div class="disabled step">
+			    <i class="info icon"></i>
+			    <div class="content">
+			      <div class="title">Confirm Order</div>
+			      <div class="description">Verify order details</div>
+			    </div>
+			  </div>
+			</div>
+			
+			<p class="ui divider"></p>
+			
+			<div class="ui three steps">
+			  <div class="step">
+			    <i class="truck icon"></i>
+			    <div class="content">
+			      <div class="title">Shipping</div>
+			    </div>
+			  </div>
+			  <div class="active step">
+			    <i class="payment icon"></i>
+			    <div class="content">
+			      <div class="title">Billing</div>
+			    </div>
+			  </div>
+			  <div class="disabled step">
+			    <i class="info icon"></i>
+			    <div class="content">
+			      <div class="title">Confirm Order</div>
+			    </div>
+			  </div>
+			</div>
+			
+			<p class="ui divider"></p>
+			
+			<div class="ui mini steps">
+			  <div class="step">
+			    <i class="truck icon"></i>
+			    <div class="content">
+			      <div class="title">Shipping</div>
+			      <div class="description">Choose your shipping options</div>
+			    </div>
+			  </div>
+			  <div class="active step">
+			    <i class="payment icon"></i>
+			    <div class="content">
+			      <div class="title">Billing</div>
+			      <div class="description">Enter billing information</div>
+			    </div>
+			  </div>
+			  <div class="disabled step">
+			    <i class="info icon"></i>
+			    <div class="content">
+			      <div class="title">Confirm Order</div>
+			      <div class="description">Verify order details</div>
+			    </div>
+			  </div>
+			</div>
+			
+			<div class="ui massive steps">
+			  <div class="step">
+			    <i class="truck icon"></i>
+			    <div class="content">
+			      <div class="title">Shipping</div>
+			    </div>
+			  </div>
+			  <div class="active step">
+			    <i class="payment icon"></i>
+			    <div class="content">
+			      <div class="title">Billing</div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+		
+		<script src="../js/jquery.min.js"></script>
+		<script src="../semantic/semantic.min.js"></script>
+	</body>
+</html>
+<script type="text/javascript">
+
+</script>
